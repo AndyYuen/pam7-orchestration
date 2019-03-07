@@ -3,6 +3,54 @@
     <repository>
       <include>true</include>
       <metadata>
+        <id>local</id>
+        <url>/home/ayuen/.m2/repository</url>
+        <source>LOCAL</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>redhat-ga-repository</id>
+        <url>http://maven.repository.redhat.com/ga/</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fusesource-ea</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/ea</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>tech-extensions</id>
+        <url>file:///media/sf_Downloads/sw/fuse7lab/redhat-fuse-7.0.0.CR4-maven-repository</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>maven-redhat</id>
+        <url>https://maven.repository.redhat.com/earlyaccess/all</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
+        <id>fuse-public-repository</id>
+        <url>https://repo.fusesource.com/nexus/content/groups/public</url>
+        <source>SETTINGS</source>
+      </metadata>
+    </repository>
+    <repository>
+      <include>true</include>
+      <metadata>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
         <source>PROJECT</source>
@@ -11,49 +59,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>guvnor-m2-repo</id>
-        <url>http://localhost:8080/business-central/maven2/</url>
-        <source>PROJECT</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-eap-plugin-repository</id>
-        <url>file:///home/ayuen/repos/rh-sso-7.0.0.GA-maven-repository/maven-repository</url>
+        <id>maven-central</id>
+        <url>http://central.maven.org/maven2/</url>
         <source>SETTINGS</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>jboss-eap-repository</id>
-        <url>file:///home/ayuen/repos/jboss-eap-7.0.0.GA-maven-repository/maven-repository</url>
+        <id>jboss-fuse-ga</id>
+        <url>https://repository.jboss.org/nexus/content/groups/ga</url>
         <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-sso-repository</id>
-        <url>file:///home/ayuen/rh-sso-7.0.0.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>jboss-eap-plugin-repository</id>
-        <url>file:///home/ayuen/repos/jboss-eap-7.0.0.GA-maven-repository/maven-repository</url>
-        <source>SETTINGS</source>
-      </metadata>
-    </repository>
-    <repository>
-      <include>true</include>
-      <metadata>
-        <id>local</id>
-        <url>/home/ayuen/.m2/repository</url>
-        <source>LOCAL</source>
       </metadata>
     </repository>
   </repositories>

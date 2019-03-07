@@ -7,6 +7,7 @@
   <version>1.0.0</version>
   <packaging>kjar</packaging>
   <name>pam7-orchestration</name>
+  <description>A Stateful Orchestration Demo</description>
   <dependencies>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
@@ -56,4 +57,3 @@
     </plugins>
   </build>
 </project>
-
